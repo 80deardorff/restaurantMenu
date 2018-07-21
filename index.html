@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- WEBSITE TITLE -->
-	<title>Restaurant Menu</title>
+	<title>Restaurant</title>
 	<!-- FONT AWESOME LINK -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 	<!-- BOOTSTRAP CDN LINK -->
@@ -16,7 +16,54 @@
 </head>
 <body>
 
+	<!-- NAVIGATION BAR -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Restaurant</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav ml-auto">
+				<a class="nav-item nav-link" href="#">Home</a>
+				<a class="nav-item nav-link active" href="#menu">Menu<span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#">About</a>
+				<a class="nav-item nav-link" href="#">Contact</a>
+			</div>
+		</div>
+	</nav>
 
+	<section id="menu">
+		<h1 class="text-center my-5">Menu</h1>
+		<div class="container-flex">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="item">
+						<img src="https://assets.epicurious.com/photos/561025ea7b55306961bffee3/1:1/w_600%2Ch_600/103379.jpg" alt="Ribeye steak.">
+						<h3>Ribeye Steak</h3>
+						<p>Our premium steaks are cooked to order and are sourced from local pasture grazing farms.</p>
+						<h6>Price: $35</h6>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="item">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw7jvjO2Kp8lIX0i2RF97IxEZUvJ8NYrkdoCg-XABJvLj9Nid1nA" alt="Roasted chicken.">
+						<h3>Roasted Chicken</h3>
+						<p>Our premium steaks are cooked to order and are sourced from local pasture grazing farms.</p>
+						<h6>Price: $22</h6>
+					</div>
+				</div>
+				<div class="col-12 col-md-4">
+					<div class="item">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy6a5_DlYHWJhttNMWreQM2zTMItuFpbif64ttDXmVjonXArSL8Q" alt="Salmon.">
+						<h3>Salmon</h3>
+						<p>Our premium steaks are cooked to order and are sourced from local pasture grazing farms.</p>
+						<h6>Price: $26</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
 
 <!-- SCRIPTS -->
 	<!-- JQUERY SCRIPT -->
